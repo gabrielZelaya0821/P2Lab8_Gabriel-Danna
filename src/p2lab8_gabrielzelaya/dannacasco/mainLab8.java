@@ -45,7 +45,6 @@ public class mainLab8 extends javax.swing.JFrame {
             ex.printStackTrace();
         }
         db.desconectar();
-        binario.
         if (binario!=null) {
             System.out.println(binario.getDatos());
             ArrayList<Universos> universosLocal = binario.getDatos();
